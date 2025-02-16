@@ -1,0 +1,124 @@
+
+body {
+  font-family: 'Raleway', sans-serif;
+  overflow-x: hidden;
+}
+.bg-img {
+    height: 100vh;
+    width: 100vw;
+    background: url('https://thefioneers.com/wp-content/uploads/2022/05/Camping-Featured-Image.png') center bottom / cover no-repeat;
+    filter: brightness(0.6);
+    position: fixed;
+    z-index: -1;
+  }
+
+  .nav-item {
+    margin-right: 10vh;
+  }
+  
+  /* Default dropdown for index.html */
+.dropdown-menu {
+  background-color: rgba(255, 255, 255, 0.2) !important;
+  backdrop-filter: blur(8px);
+  border: none;
+}
+
+.dropdown-item {
+  color: white !important;
+}
+
+.dropdown-item:hover {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  color: white !important;
+}
+
+/* Dropdown styles for education.html */
+body.page .dropdown-menu {
+  background-color: rgba(0, 0, 0, 0.8) !important;
+  color: white;
+}
+
+body.page .dropdown-item {
+  color: white !important;
+}
+
+body.page .dropdown-item:hover {
+  background-color: rgba(255, 255, 255, 0.2) !important;
+  color: black !important;
+}
+
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    height: 100vh; /* Full viewport height */
+  }
+
+
+  .hero h1 {
+    font-size: 4rem;
+    font-weight: 600;
+    color: white;
+  }
+
+  #bookingButton {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 5vh 8vh;
+    font-size: 1.2rem;
+
+
+  }
+  
+  #bookingButton:hover {
+    background-color: rgba(0, 0, 0);
+   
+  }
+
+  #custom-nav {
+    background: rgba(0, 0, 0, 0.7) url('https://thefioneers.com/wp-content/uploads/2022/05/Camping-Featured-Image.png') center center / cover no-repeat;
+    color: white;
+  }
+
+
+  
+  .img-fluid {
+    height: 50vh !important;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+
+  body, html {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .page {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  footer {
+    margin-top: auto;
+    background-color: #f8f9fa; /* Light background for the footer */
+    padding: 20px 0;
+  }
+
+  .team-img {
+    width: 25vh; 
+    height: 25vh; 
+    object-fit: cover; 
+    border-radius: 50%; 
+    background-color: #f0f0f0; 
+    margin: 0 auto; 
+  }
+  
+
+  
+
+  
